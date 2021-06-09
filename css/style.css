@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,400&display=swap');
 
 body {
-  background-color: #14131A;
   color: white;
   font-family: 'Roboto', sans-serif;
 }
@@ -55,4 +54,45 @@ body {
   font-weight: 300;
   line-height: 140%;
   color: rgba(255, 255, 255, 0.8);
+}
+
+.button-group {
+  margin-top: 70px;
+}
+
+.button {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.button-icon, .button-text {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.button-text {
+  margin-left: 10px;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.button-primary {
+  color: #8D0019;
+  cursor: pointer;
+}
+
+.button-link {
+  color: #fff;
+}
+
+.venom {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.body {
+  background: url('../img/blood.png') no-repeat top right,
+  #14131A url('../img/background.jpg') no-repeat center center / 100%;
 }
